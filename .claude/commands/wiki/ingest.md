@@ -23,6 +23,7 @@ If neither --interactive nor --auto is specified in the arguments, ask the user 
 - raw/ is READ ONLY — never create, edit, or delete anything inside raw/
 - mine/ is COMPLETELY OFF-LIMITS — never read, write, modify, or reference it
 - All wiki pages go in wiki/ under one of: concepts/, technologies/, papers-articles/, comparisons/
+- **Sources must be the original URL**, not a wikilink to raw/. Read the `source:` field from the raw file's frontmatter and use that as the source value. Never reference raw/ files in wiki page frontmatter.
 </constraints>
 
 <page-format>
@@ -32,7 +33,7 @@ Every wiki page requires this frontmatter:
 type: concept | technology | paper-article | comparison
 tags: [tag1, tag2]
 sources:
-  - "[[raw/Article Title]]"
+  - "https://original-url-from-raw-file-frontmatter"
 date-updated: YYYY-MM-DD
 ---
 ```
@@ -78,4 +79,4 @@ If neither flag is present, ask the user: "Interactive (discuss key takeaways fi
 7. Update `wiki/index.md` with all new pages
 8. Append to `wiki/log.md`: `## [YYYY-MM-DD] ingest | <source title>`
 9. Report all files created or updated with a brief description of what changed
-</process>
+   </process>
