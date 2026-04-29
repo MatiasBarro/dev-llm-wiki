@@ -1,0 +1,12 @@
+- llm style chat
+- 2 tabs
+	- 1 para chat
+	- otro para planificacion
+- side bar para ver las planificaciones
+- primera fase:
+	- se chatea y se define el viaje
+		- tool para guardar el plan
+		- importante guardar el context
+		- se puede pasar links. Se fetchean y se hace un resumen que se guarda en database.
+	- no se puede moficar a mano
+	- por ahora solo json, no RAG
