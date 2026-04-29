@@ -1,5 +1,8 @@
 # Wiki Log
 
+## [2026-04-29] ingest | Harness Engineering for Coding Agent Users
+Interactive ingest. Created 2 pages: concepts/harness-engineering.md, papers-articles/harness-engineering-for-coding-agent-users.md. Cross-linked to agentic-llm-primitives and multi-agent-orchestration.
+
 ## [2026-04-29] ingest | Beyond Vibe Coding: How We Ship Production Code with 200 Autonomous Agents
 Interactive ingest. Created 3 pages: papers-articles/beyond-vibe-coding-200-autonomous-agents.md, concepts/agentic-llm-primitives.md, concepts/multi-agent-orchestration.md. Commercial bias noted in source summary.
 
