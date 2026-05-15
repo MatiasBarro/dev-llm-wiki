@@ -1,5 +1,8 @@
 # Wiki Log
 
+## [2026-05-15] ingest | 9 Agentic Patterns, Simply Explained
+Interactive ingest. Created 2 pages: papers-articles/9-agentic-patterns-simply-explained.md, concepts/agentic-patterns.md. Extended concepts/agentic-llm-primitives.md with mapping to the 9-pattern taxonomy.
+
 ## [2026-05-15] ingest | A Guide To Event-Driven Architectural Patterns
 Interactive ingest. Created 5 pages: papers-articles/guide-to-event-driven-architectural-patterns.md, concepts/event-driven-architecture.md, concepts/event-sourcing.md, concepts/saga-pattern.md, concepts/transactional-outbox.md. Opens distributed-systems domain in the wiki.
 

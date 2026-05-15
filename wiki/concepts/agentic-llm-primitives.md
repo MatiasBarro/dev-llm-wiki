@@ -3,7 +3,8 @@ type: concept
 tags: [ai, multi-agent, architecture, pattern, autonomous-agents]
 sources:
   - "https://agentfield.ai/blog/beyond-vibe-coding"
-date-updated: 2026-04-29
+  - "https://newsletter.systemdesign.one/p/agentic-design-patterns"
+date-updated: 2026-05-15
 ---
 
 # Agentic LLM Primitives: Constrained Call vs. Autonomous Harness
@@ -60,6 +61,20 @@ When you conflate the two, retry logic becomes ambiguous (re-running a 45-minute
 
 This distinction emerged from the SWE-AF multi-agent system described in [[papers-articles/beyond-vibe-coding-200-autonomous-agents]]. The constrained call was recognized on day one; the autonomous harness abstraction took months of failed builds to identify — it wasn't designed in advance, it was extracted from recurring patterns.
 
+## Mapping to the 9-Pattern Taxonomy
+
+The two primitives map directly onto the workflow/agent divide described in [[concepts/agentic-patterns]]:
+
+| Primitive | Corresponds to | Who controls flow |
+|---|---|---|
+| Constrained Call | Direct API call or workflow patterns (chaining, routing, parallelization) | Your code |
+| Autonomous Harness | Agent patterns (reflection, tool use, ReAct, planning) | The LLM |
+
+The orchestrator-workers pattern sits at the boundary — a central LLM makes routing decisions dynamically, but your code still invokes it and checks results. It behaves like an autonomous harness at the orchestration level while each worker call can be either primitive.
+
+The practical implication: the choice of primitive should precede the choice of pattern. If a task requires schema-validated output with predictable cost (routing decision, risk scoring, guidance generation), reach for the constrained call regardless of how many downstream agents will act on it. Only escalate to the autonomous harness when the task requires reading and modifying state in a loop with an open-ended goal.
+
 ## Related
 
+- [[concepts/agentic-patterns]] — the full 9-pattern taxonomy and escalation ladder that maps onto these two primitives
 - [[concepts/multi-agent-orchestration]] — how these primitives compose into a full orchestration system with failure loops and checkpointing
