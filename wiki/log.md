@@ -1,5 +1,8 @@
 # Wiki Log
 
+## [2026-05-15] ingest | A Guide To Event-Driven Architectural Patterns
+Interactive ingest. Created 5 pages: papers-articles/guide-to-event-driven-architectural-patterns.md, concepts/event-driven-architecture.md, concepts/event-sourcing.md, concepts/saga-pattern.md, concepts/transactional-outbox.md. Opens distributed-systems domain in the wiki.
+
 ## [2026-04-29] ingest | Harness Engineering for Coding Agent Users
 Interactive ingest. Created 2 pages: concepts/harness-engineering.md, papers-articles/harness-engineering-for-coding-agent-users.md. Cross-linked to agentic-llm-primitives and multi-agent-orchestration.
 

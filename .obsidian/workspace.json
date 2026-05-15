@@ -27,32 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mine/ideas/AI Travel planner.md",
+                "file": "wiki/concepts/saga-pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Travel planner"
+              "title": "saga-pattern"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "aba7843b809429cf",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8e708d59d92f1149",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -216,15 +200,22 @@
   },
   "active": "77278991f06ff158",
   "lastOpenFiles": [
+    "wiki/concepts/transactional-outbox.md",
+    "wiki/concepts/event-driven-architecture.md",
+    "wiki/concepts/event-sourcing.md",
+    "wiki/index.md",
+    "raw/A Guide To Event-Driven Architectural Patterns.md",
+    "wiki/concepts/saga-pattern.md",
+    "wiki/papers-articles/guide-to-event-driven-architectural-patterns.md",
+    "Welcome.md",
+    "mine/ideas/AI Travel planner.md",
     "raw/Beyond Vibe Coding How We Ship Production Code with 200 Autonomous Agents.md",
     "raw/Must-Know Cross-Cutting Concerns in API Development.md",
     "raw/I struggled with system design until I learned these 114 concepts.md",
     "raw/B-Trees vs LSM Trees Comparison and Trade-Offs.md",
     "raw/9 Agentic Patterns, Simply Explained.md",
-    "mine/ideas/AI Travel planner.md",
     "raw",
     "mine",
-    "Welcome.md",
     "mine/ideas"
   ]
 }
