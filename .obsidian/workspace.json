@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/agentic-patterns.md",
+                "file": "To ingest.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "agentic-patterns"
+              "title": "To ingest"
             }
           }
         ],
@@ -200,10 +200,11 @@
   },
   "active": "77278991f06ff158",
   "lastOpenFiles": [
+    "wiki/concepts/agentic-patterns.md",
+    "To ingest.md",
     "wiki/concepts/agentic-llm-primitives.md",
     "wiki/papers-articles/9-agentic-patterns-simply-explained.md",
     "raw/9 Agentic Patterns, Simply Explained.md",
-    "wiki/concepts/agentic-patterns.md",
     "wiki/concepts/saga-pattern.md",
     "wiki/concepts/transactional-outbox.md",
     "wiki/concepts/event-driven-architecture.md",

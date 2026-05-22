@@ -1,0 +1,2 @@
+https://blog.bytebytego.com/p/a-guide-to-async-patterns-in-api?utm_source=post-email-title&publication_id=817132&post_id=197567426&utm_campaign=email-post-title&isFreemail=false&r=2l7yfa&triedRedirect=true&utm_medium=email
+https://agentfield.ai/blog/beyond-vibe-coding?utm_source=sys_design&utm_medium=newsletter&utm_campaign=sys_design-060407&utm_id=sys_design-060407-blog-bvc-cta&utm_content=blog-bvc-cta
