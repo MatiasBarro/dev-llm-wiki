@@ -11,6 +11,7 @@
 | [[concepts/event-sourcing]] | Store every change as an immutable event; current state derived by replay; built-in audit trail, hard schema evolution, oversold outside audit-heavy domains | distributed-systems, databases, architecture, pattern, event-driven |
 | [[concepts/saga-pattern]] | Coordinates multi-service workflows via local transactions + compensating actions; choreography vs orchestration; compensating actions are business decisions | distributed-systems, system-design, architecture, pattern, event-driven |
 | [[concepts/transactional-outbox]] | Solves the dual-write problem by writing events to the same DB transaction as business data; relay process forwards to broker; at-least-once delivery | distributed-systems, databases, pattern, event-driven, reliability |
+| [[concepts/async-api-patterns]] | Eight async API patterns (polling, SSE, webhooks, WebSockets, job pattern, queues, GraphQL subscriptions) unified by a four-levers mental model | api, system-design, architecture, pattern, distributed-systems, networking |
 
 ## Technologies
 | Page | Summary | Tags |
@@ -23,6 +24,7 @@
 | [[papers-articles/harness-engineering-for-coding-agent-users]] | Framework for outer harness controls (guides + sensors, computational vs inferential, three regulation dimensions); industry examples from OpenAI, Stripe, Thoughtworks | ai, autonomous-agents, software-engineering, quality |
 | [[papers-articles/9-agentic-patterns-simply-explained]] | Nine agentic patterns across workflow/agent divide; escalation ladder, evaluator-optimizer as add-on, systemic concerns, code review case study | ai, architecture, pattern, autonomous-agents, system-design |
 | [[papers-articles/guide-to-event-driven-architectural-patterns]] | Six EDA patterns (Competing Consumer, Consume and Project, Event Sourcing, Async Task Execution, Transactional Outbox, Saga) with composability guidance | distributed-systems, system-design, architecture, pattern, event-driven |
+| [[papers-articles/guide-to-async-patterns-in-api-design]] | Eight async API patterns with four-levers framework; SSE revival via LLMs, WebSocket trap, webhooks as server responsibility | api, system-design, architecture, pattern, distributed-systems, networking |
 
 ## Comparisons
 | Page | Summary | Tags |

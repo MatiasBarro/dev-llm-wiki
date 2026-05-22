@@ -1,5 +1,8 @@
 # Wiki Log
 
+## [2026-05-22] ingest | A Guide to Async Patterns in API Design
+Interactive ingest. Created 2 pages: papers-articles/guide-to-async-patterns-in-api-design.md, concepts/async-api-patterns.md. Cross-linked to event-driven-architecture and transactional-outbox.
+
 ## [2026-05-15] ingest | 9 Agentic Patterns, Simply Explained
 Interactive ingest. Created 2 pages: papers-articles/9-agentic-patterns-simply-explained.md, concepts/agentic-patterns.md. Extended concepts/agentic-llm-primitives.md with mapping to the 9-pattern taxonomy.
 
