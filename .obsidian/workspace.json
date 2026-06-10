@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/A Guide to Async Patterns in API Design.md",
+                "file": "raw/EP212 Data Warehouse vs Data Lake vs Data Mesh.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A Guide to Async Patterns in API Design"
+              "title": "EP212 Data Warehouse vs Data Lake vs Data Mesh"
             }
           }
         ],
@@ -198,13 +198,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "77278991f06ff158",
+  "active": "99dcaef1ec6ec6b2",
   "lastOpenFiles": [
+    "wiki/comparisons/b-trees-vs-lsm-trees.md",
+    "wiki/concepts/lsm-trees.md",
+    "wiki/concepts/b-trees.md",
+    "raw/A Guide to Async Patterns in API Design.md",
+    "raw/EP212 Data Warehouse vs Data Lake vs Data Mesh.md",
     "to-ingest.md",
     "To ingest.md",
     "wiki/papers-articles/guide-to-async-patterns-in-api-design.md",
     "wiki/concepts/async-api-patterns.md",
-    "raw/A Guide to Async Patterns in API Design.md",
     "wiki/concepts/agentic-patterns.md",
     "wiki/concepts/agentic-llm-primitives.md",
     "wiki/papers-articles/9-agentic-patterns-simply-explained.md",

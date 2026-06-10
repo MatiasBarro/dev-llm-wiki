@@ -3,6 +3,8 @@
 ## Concepts
 | Page | Summary | Tags |
 |---|---|---|
+| [[concepts/b-trees]] | B+ Tree structure: sorted fixed-size pages, linked leaves enabling fast range scans; pays write cost upfront for cheap reads | databases, storage, algorithm, foundational |
+| [[concepts/lsm-trees]] | Log-Structured Merge Tree: memtable → immutable SSTables → compaction; cheap writes, higher read/space cost; bloom filters essential | databases, storage, algorithm, foundational |
 | [[concepts/agentic-llm-primitives]] | Two fundamental LLM integration modes: constrained single-shot call vs. autonomous multi-turn harness | ai, multi-agent, architecture, pattern |
 | [[concepts/multi-agent-orchestration]] | Patterns for coordinating parallel autonomous agents: three nested failure loops, git worktree isolation, checkpointing, typed debt | ai, multi-agent, architecture, distributed-systems |
 | [[concepts/harness-engineering]] | Framework for the outer controls users build around coding agents: guides (feedforward), sensors (feedback), three regulation dimensions (maintainability, architecture fitness, behaviour) | ai, autonomous-agents, architecture, pattern, quality |
@@ -29,3 +31,4 @@
 ## Comparisons
 | Page | Summary | Tags |
 |---|---|---|
+| [[comparisons/b-trees-vs-lsm-trees]] | Three amplifications framework (read/write/space); when each structure wins; SSD caveat and convergence trends | databases, storage, system-design, foundational |

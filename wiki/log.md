@@ -1,5 +1,8 @@
 # Wiki Log
 
+## [2026-06-10] ingest | B-Trees vs LSM Trees: Comparison and Trade-Offs
+Interactive ingest. Created 3 pages: concepts/b-trees.md, concepts/lsm-trees.md, comparisons/b-trees-vs-lsm-trees.md. Opens databases/storage domain in the wiki. First entries in Comparisons section.
+
 ## [2026-05-22] ingest | A Guide to Async Patterns in API Design
 Interactive ingest. Created 2 pages: papers-articles/guide-to-async-patterns-in-api-design.md, concepts/async-api-patterns.md. Cross-linked to event-driven-architecture and transactional-outbox.
 
