@@ -200,6 +200,9 @@
   },
   "active": "99dcaef1ec6ec6b2",
   "lastOpenFiles": [
+    "wiki/concepts/write-ahead-log.md",
+    "wiki/concepts/sla-slo-sli.md",
+    "wiki/comparisons/data-warehouse-vs-data-lake-vs-data-mesh.md",
     "wiki/comparisons/b-trees-vs-lsm-trees.md",
     "wiki/concepts/lsm-trees.md",
     "wiki/concepts/b-trees.md",
@@ -223,9 +226,6 @@
     "Welcome.md",
     "mine/ideas/AI Travel planner.md",
     "raw/Beyond Vibe Coding How We Ship Production Code with 200 Autonomous Agents.md",
-    "raw/Must-Know Cross-Cutting Concerns in API Development.md",
-    "raw/I struggled with system design until I learned these 114 concepts.md",
-    "raw/B-Trees vs LSM Trees Comparison and Trade-Offs.md",
     "raw",
     "mine",
     "mine/ideas"

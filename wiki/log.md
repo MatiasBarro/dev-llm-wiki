@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-06-10] query | Write-Ahead Log (WAL)
+Query synthesized from concepts/b-trees and concepts/lsm-trees. Created concepts/write-ahead-log.md as a standalone foundational concept page.
+
+## [2026-06-10] ingest | EP212: Data Warehouse vs Data Lake vs Data Mesh
+Interactive ingest. Newsletter format — skipped thin/already-covered sections (API concepts, polling/SSE). Created 2 pages: comparisons/data-warehouse-vs-data-lake-vs-data-mesh.md, concepts/sla-slo-sli.md. Source noted as shallow on the data storage topic.
+
 ## [2026-06-10] ingest | B-Trees vs LSM Trees: Comparison and Trade-Offs
 Interactive ingest. Created 3 pages: concepts/b-trees.md, concepts/lsm-trees.md, comparisons/b-trees-vs-lsm-trees.md. Opens databases/storage domain in the wiki. First entries in Comparisons section.
 

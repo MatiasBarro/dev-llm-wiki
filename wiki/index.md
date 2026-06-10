@@ -3,6 +3,8 @@
 ## Concepts
 | Page | Summary | Tags |
 |---|---|---|
+| [[concepts/write-ahead-log]] | Append-only durability log written before every commit; enables crash recovery in both B-Trees and LSM Trees; sequential writes only | databases, storage, reliability, foundational |
+| [[concepts/sla-slo-sli]] | SLI = metric, SLO = internal target, SLA = customer contract; why SLO must be set higher than SLA; error budgets | reliability, system-design, operations |
 | [[concepts/b-trees]] | B+ Tree structure: sorted fixed-size pages, linked leaves enabling fast range scans; pays write cost upfront for cheap reads | databases, storage, algorithm, foundational |
 | [[concepts/lsm-trees]] | Log-Structured Merge Tree: memtable → immutable SSTables → compaction; cheap writes, higher read/space cost; bloom filters essential | databases, storage, algorithm, foundational |
 | [[concepts/agentic-llm-primitives]] | Two fundamental LLM integration modes: constrained single-shot call vs. autonomous multi-turn harness | ai, multi-agent, architecture, pattern |
@@ -31,4 +33,5 @@
 ## Comparisons
 | Page | Summary | Tags |
 |---|---|---|
+| [[comparisons/data-warehouse-vs-data-lake-vs-data-mesh]] | Schema-on-write (warehouse) vs schema-on-read (lake) vs domain ownership (mesh); most orgs use all three | databases, data-engineering, architecture |
 | [[comparisons/b-trees-vs-lsm-trees]] | Three amplifications framework (read/write/space); when each structure wins; SSD caveat and convergence trends | databases, storage, system-design, foundational |
